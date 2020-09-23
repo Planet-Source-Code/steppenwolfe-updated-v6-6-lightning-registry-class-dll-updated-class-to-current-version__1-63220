@@ -1,0 +1,17 @@
+Instructions
+
+Step 1:
+Open the nsprcl project and compile the Registry Control into the Release folder
+
+Step 2:
+Open the prjMruSearch project
+
+If the active x control is not found when the project loads, go to Project -> References and add the nsprcl.dll compiled in
+the Release folder.
+
+Step 3:
+I have also included a sample project that demonstrates the use of the registry controls as an inline class module, 
+and gives an example of how a registry cleaner works..
+
+Have fun!
+John
